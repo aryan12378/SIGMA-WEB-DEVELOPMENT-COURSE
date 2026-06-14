@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .top {
+            background-color: lightblue;
+            padding: 15px 0;
+        }
+
+        ul li {
+            display: inline;
+            padding: 20px;
+
+        }
+
+        .box1 {
+            width: 400px;
+            height: 400px;
+            background-color: coral;
+            margin: 15px;
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+            top: 60px;
+            left: 60px;
+        }
+
+        .box2 {
+            width: 400px;
+            height: 400px;
+            background-color: lightgreen;
+            margin: 15px;
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+            top: 60px;
+            right: -40px;
+        }
+
+        .box3 {
+            width: 1000px;
+            height: 600px;
+            background-color: lightgray;
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+            top: -400px;
+        }
+
+        .box4 {
+            width: 800px;
+            height: 200px;
+            background-color: lightpink;
+            margin: 15px;
+            display: inline-block;
+            border: 4px solid black;
+            border-radius: 40px;
+            font-size: 30px;
+            text-align: center;
+            padding: 30px 60px;
+            
+        }
+
+        .box5 {
+            width: 100%;
+            height: 150px;
+            background-color: rgb(75, 145, 164);
+            margin-top: 20px;
+            text-align: center;
+            padding-top: 30px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>contact us</li>
+                <li>services</li>
+            </ul>
+        </nav>
+    </div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4">Welcome to Sigma Web Development Express</div>
+    <div class="box5">
+        <h1>This is a footer box</h1>
+    </div>
+</body>
+
+</html>
